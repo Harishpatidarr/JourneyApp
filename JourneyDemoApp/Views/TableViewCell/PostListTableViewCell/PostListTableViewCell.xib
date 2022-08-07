@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostListTableViewCell" rowHeight="176" id="KFi-XO-b7E" customClass="PostListTableViewCell" customModule="JourneyDemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KFi-XO-b7E" id="QDZ-QS-ahO">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDJ-GW-MKB">
+                        <rect key="frame" x="15" y="5" width="345" height="68"/>
+                        <subviews>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RqK-Ul-sko">
+                                <rect key="frame" x="10" y="10" width="325" height="48"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="CHEGR-CCHEGR-1812202013479620" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41w-N1-4yB">
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="Lmm-7q-jYf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional Removal of Garbage " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTd-1T-xuS">
+                                        <rect key="frame" x="0.0" y="27" width="325" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="fDp-8N-HRl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RqK-Ul-sko" secondAttribute="bottom" constant="10" id="FX9-ZT-vWT"/>
+                            <constraint firstItem="RqK-Ul-sko" firstAttribute="top" secondItem="zDJ-GW-MKB" secondAttribute="top" constant="10" id="QkL-xn-ce5"/>
+                            <constraint firstItem="RqK-Ul-sko" firstAttribute="leading" secondItem="zDJ-GW-MKB" secondAttribute="leading" constant="10" id="YSX-HS-3YV"/>
+                            <constraint firstAttribute="trailing" secondItem="RqK-Ul-sko" secondAttribute="trailing" constant="10" id="uhi-Ds-Qnw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.062745098040000002" green="0.18039215689999999" blue="0.34509803919999998" alpha="0.26000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="0.0" y="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zDJ-GW-MKB" firstAttribute="top" secondItem="QDZ-QS-ahO" secondAttribute="top" constant="5" id="aGn-ML-t4x"/>
+                    <constraint firstItem="zDJ-GW-MKB" firstAttribute="leading" secondItem="QDZ-QS-ahO" secondAttribute="leading" constant="15" id="aUH-Wx-9ko"/>
+                    <constraint firstAttribute="trailing" secondItem="zDJ-GW-MKB" secondAttribute="trailing" constant="15" id="n5Y-D7-aTD"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zDJ-GW-MKB" secondAttribute="bottom" constant="15" id="w3X-5R-ebG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblDescription" destination="MTd-1T-xuS" id="nUo-Gh-8du"/>
+                <outlet property="lblTitle" destination="41w-N1-4yB" id="VlK-m3-Bco"/>
+            </connections>
+            <point key="canvasLocation" x="554.0625" y="58.098591549295776"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

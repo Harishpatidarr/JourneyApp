@@ -1,0 +1,26 @@
+PODS:
+  - CocoaLumberjack/Core (3.7.4)
+  - CocoaLumberjack/Swift (3.7.4):
+    - CocoaLumberjack/Core
+  - HGPlaceholders (0.5.0)
+  - IQKeyboardManagerSwift (6.5.9)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - HGPlaceholders
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - HGPlaceholders
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  HGPlaceholders: cbf8caed8360fc2ab5e8a4610cce61f76fbd2c37
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+
+PODFILE CHECKSUM: 23b76e5d95adf14e3bf69843182013ed1e314709
+
+COCOAPODS: 1.11.3
